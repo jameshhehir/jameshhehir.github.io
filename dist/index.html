@@ -5,15 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+  <link rel="icon" href="favicon.png" type="image/png" />
 
   <link rel="stylesheet" href="css/main.css">
-  <title>Welcome To My Website</title>
+
+
+  <title>Jimmy Hehir | Comp Sci Student</title>
 </head>
 
-<body id="bg-img">
+<body>
+    <div id="particles-js"></div>
   <header>
+
+
     <div class="menu-btn">
       <div class="btn-line"></div>
       <div class="btn-line"></div>
@@ -31,29 +38,29 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="work.html" class="nav-link">
-            My Work
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">
-            How To Reach Me
-          </a>
-        </li>
+            <a href="work.html" class="nav-link">
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">
+              Contact
+            </a>
+          </li>
       </ul>
     </nav>
   </header>
 
+
   <main id="home">
     <h1 class="lg-heading">
-      Jimmy
-      <span class="text-secondary">Hehir</span>
+      Jimmy Hehir
     </h1>
-    <h2 class="sm-heading">
-      Student Web Developer & Programmer.
+    <h2 class="sm-heading icons">
+      Comp Sci Student @<a href="http://www.nuigalway.ie/courses/undergraduate-courses/computer-science-and-information-technology.html">NUI Galway</a> & Tech Enthusiast.
     </h2>
     <div class="icons">
-      <a href="https://twitter.com/jimihehir">
+      <a target="_blank" href="https://twitter.com/jimihehir">
         <i class="fab fa-twitter fa-2x"></i>
       </a>
       <a href="https://www.linkedin.com/in/jimmy-hehir-7a22a511a/">
@@ -64,8 +71,14 @@
       </a>
     </div>
   </main>
+  
+
 
   <script src="js/main.js"></script>
+  <script src="js/particles.js"></script>
+	<script>
+		particlesJS();
+  </script>
 </body>
 
 </html>
