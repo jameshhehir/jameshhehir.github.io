@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Website underconstruction. If you need to contact me use this email <a href="mailto:hello@jimmyhehir.info" style="color: #61dafb;">hello@jimmyhehir.info</a>
+          Website underconstruction. If you need to contact me use this email <a className="App-link" href="mailto:hello@jimmyhehir.info">hello@jimmyhehir.info</a>
         </p>
       </header>
     </div>
