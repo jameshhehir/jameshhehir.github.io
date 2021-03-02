@@ -7,23 +7,24 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script data-ad-client="ca-pub-5689453035961848" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        </script>
+    <script data-ad-client="ca-pub-5689453035961848" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK84H794H7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZK84H794H7"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-ZK84H794H7');
-</script>
+        gtag('config', 'G-ZK84H794H7');
+    </script>
     <link rel="icon"
         href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/electric-torch_1f526.png"
         type="image/png" sizes="16x16">
@@ -52,16 +53,24 @@
                 <h3><b>About 📖</b></h3>
                 <div style="padding:1rem">
                     <p>I am currently studing a MSc in Bioinformatics and Computational Biology at <a
-                        href="https://www.ucc.ie/en/ckr33/"
-                        target="_blank">UCC.</a> This course provides a solid foundation in Data Analysis using R and Python primarily, while also using mathematical models to study the complex field of Genomes and DNA.
-                        
+                            href="https://www.ucc.ie/en/ckr33/" target="_blank">UCC.</a> This course provides a solid
+                        foundation in Data Analysis using R and Python primarily, while also using mathematical models
+                        to study the complex field of Genomes and DNA.
+
                         <br><br>I have a BSc in Computer Science and Information Technology from <a
                             href="https://www.nuigalway.ie/courses/undergraduate-courses/computer-science-and-information-technology.html"
-                            target="_blank">NUI Galway.</a> This course provides in-depth coverage of core computer science and software engineering technologies, and a flexible course structure, where you can choose to study a range of next-generation technology areas, including digital media and games, data analytics, energy informatics, cloud computing and medical/bioinformatics.
-                            
-                            <br><br>I have worked full-time as a software developer at <a href="https://www.wazp.io">WAZP</a>, a 3D Printing Supply Chain located in Tralee, Co. Kerry.
-                        In this role I had the opportunity to work with different professionals in a small fast paced company. 
-                        <br><br>I also like to work on personal projects. I have experience in Python and have educational
+                            target="_blank">NUI Galway.</a> While studying in Galway I gained in-depth coverage of core computer
+                        science and software engineering technologies. I
+                        chose to study a range of next-generation technology areas, including digital media and games,
+                        data analytics, energy informatics, cloud computing and medical/bioinformatics.
+
+                        <br><br>I have worked full-time as a software developer at <a
+                            href="https://www.wazp.io">WAZP</a>, a 3D Printing Supply Chain located in Tralee, Co.
+                        Kerry.
+                        In this role I had the opportunity to work with different professionals in a small fast paced
+                        company.
+                        <br><br>I also like to work on personal projects. I have experience in Python and have
+                        educational
                         experience
                         working with Java and C. I also have knowledge working with Bootstrap, React, HTML and CSS. Take
                         a look at my work on the <a href="#github">Github</a> section of the sidebar.
@@ -75,56 +84,28 @@
             <div class="container">
                 <h3><b>Github 🛠️</b></h3>
                 <div id="myData"></div>
-    <script>
-        fetch('https://api.github.com/users/jameshhehir/repos')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                appendData(data);
-            })
-            .catch(function (err) {
-                console.log('error: ' + err);
-            });
+                <script>
+                    fetch('https://api.github.com/users/jameshhehir/repos')
+                        .then(function (response) {
+                            return response.json();
+                        })
+                        .then(function (data) {
+                            appendData(data);
+                        })
+                        .catch(function (err) {
+                            console.log('error: ' + err);
+                        });
 
-        function appendData(data) {
-            var mainContainer = document.getElementById("myData");
-            for (var i = 5; i < 20; i++) {
-                var div = document.createElement("div");
-                div.innerHTML = "<a target='_blank' href='" + data[i].html_url + "'>"+ data[i].name+"</a>" + ' ' + "<u>"+ data[i].language + "</u>";
-                mainContainer.appendChild(div);
-            }
-        }
-    </script>
-    <br>
-                <div id="mobile-disapear">
-                    <h4><b>Progaimming Languages Proficiency</b></h4>
-                    <h5 style="margin-top: .5rem;"><i>Python</i></h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 68%"
-                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 style="margin-top: .5rem;"><i>Java</i></h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 59%"
-                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 style="margin-top: .5rem;"><i>C</i></h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 65%"
-                            aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 style="margin-top: .5rem;"><i>React</i></h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <h5 style="margin-top: .5rem;"><i>HTML, CSS, Bootstrap</i></h5>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 80%"
-                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
+                    function appendData(data) {
+                        var mainContainer = document.getElementById("myData");
+                        for (var i = 5; i < 20; i++) {
+                            var div = document.createElement("div");
+                            div.innerHTML = "<a target='_blank' href='" + data[i].html_url + "'>" + data[i].name + "</a>" + ' ' + "<u>" + data[i].language + "</u>";
+                            mainContainer.appendChild(div);
+                        }
+                    }
+                </script>
+                <br>
             </div>
         </div>
     </div>
@@ -160,9 +141,9 @@
 </body>
 <script>
     new TypeIt("#Quotes", {
-            speed: 50,
-            startDelay: 900
-        })
+        speed: 50,
+        startDelay: 900
+    })
 
         .type("Nobody realizes that some people expend tremendous energy merely to be normal.")
         .pause(2000)
