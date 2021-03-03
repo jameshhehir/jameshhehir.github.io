@@ -30,6 +30,13 @@
         type="image/png" sizes="16x16">
     <script src="https://cdn.jsdelivr.net/npm/typeit@6.1.1/dist/typeit.min.js"></script>
     <script src="https://kit.fontawesome.com/43ee5bd6e0.js" crossorigin="anonymous"></script>
+    <style>
+        .github-pinner {
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 10px;
+        }
+      </style>
     <title>Jimmy Hehir | Software Developer </title>
 </head>
 
@@ -83,28 +90,9 @@
         <div class="jumbotron jumbotron-fluid" style="background-color: white">
             <div class="container">
                 <h3><b>Github 🛠️</b></h3>
-                <div id="myData"></div>
-                <script>
-                    fetch('https://api.github.com/users/jameshhehir/repos')
-                        .then(function (response) {
-                            return response.json();
-                        })
-                        .then(function (data) {
-                            appendData(data);
-                        })
-                        .catch(function (err) {
-                            console.log('error: ' + err);
-                        });
-
-                    function appendData(data) {
-                        var mainContainer = document.getElementById("myData");
-                        for (var i = 5; i < 20; i++) {
-                            var div = document.createElement("div");
-                            div.innerHTML = "<a target='_blank' href='" + data[i].html_url + "'>" + data[i].name + "</a>" + ' ' + "<u>" + data[i].language + "</u>";
-                            mainContainer.appendChild(div);
-                        }
-                    }
-                </script>
+                <script src="GitHubPinner.js"></script>
+                <div data="https://github.com/jameshhehir?tab=repositories" class="github-pinner" style="visibility: visible;"></div>
+                <div data="https://github.com/jameshhehir" class="github-pinner flat"></div>
                 <br>
             </div>
         </div>
@@ -139,61 +127,5 @@
     </div>
 
 </body>
-<script>
-    new TypeIt("#Quotes", {
-        speed: 50,
-        startDelay: 900
-    })
-
-        .type("Nobody realizes that some people expend tremendous energy merely to be normal.")
-        .pause(2000)
-        .delete(78)
-        .pause(2000)
-        .type("You know what 'potential' means? It means you ain't done shit yet.")
-        .pause(2000)
-        .delete(66)
-        .pause(2000)
-        .type("Whatever the mind can conceive and believe, it can achieve.")
-        .pause(2000)
-        .delete(59)
-        .pause(2000)
-        .type(
-            "Impossible is just a big word thrown around by small men who find it easier to live in the world they've been given than to explore the power they have to change it. Impossible is not a fact. It's an opinion. Impossible is not a declaration. It's a dare. Impossible is potential. Impossible is temporary. Impossible is nothing."
-        )
-        .pause(2000)
-        .delete(327)
-        .pause(2000)
-        .type("You can fail at what you don't want, so you might as well take a chance at doing what you love.")
-        .pause(2000)
-        .delete(95)
-        .pause(2000)
-        .type(
-            "It is better to be prepared for an opportunity and not have one, than to have an opportunity and not be prepared."
-        )
-        .pause(2000)
-        .delete(113)
-        .pause(2000)
-        .type(
-            "There is nothing to fear, because I cannot fail - only learn, grow, and become better than I've ever been before"
-        )
-        .pause(2000)
-        .delete(112)
-        .pause(2000)
-        .type(
-            "Pain is temporary. It may last a minute, or an hour, or a day, or a year, but eventually it will subside and something else will take its place. If I quit however, it lasts forever."
-        )
-        .pause(2000)
-        .delete(181)
-        .pause(2000)
-        .type("An inch forward today will make a foot of a difference tomorrow.")
-        .pause(2000)
-        .delete(64)
-        .pause(2000)
-        .type("Strive not to be a success, but rather to be of value.")
-        .pause(2000)
-        .delete(54)
-        .pause(2000)
-        .go();
-</script>
 
 </html>
