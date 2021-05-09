@@ -66,7 +66,7 @@ export default class Content extends Component {
                       </div>
 
                       <div className="card-text">
-                        ◆ I worked with a 3D Printing Supply Chain. I was responsible for the developing front end and backend technologies.
+                        ◆ I worked with a 3D Printing Supply Chain. I was responsible for developing front end and backend technologies.
                         <br />◆ I also worked with graphic designers to implement web designs.
                         <br />◆ I ensured cross-platform optimization for mobile phones and overall responsiveness of applications.
                       </div>
