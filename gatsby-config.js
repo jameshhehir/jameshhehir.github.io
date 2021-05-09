@@ -6,6 +6,9 @@
 
 module.exports = {
   /* Your site config here */
+
+  pathPrefix: "/jameshhehir.github.io",
+
   siteMetadata: {
     title: `Jimmy Hehir`,
     description: `A minimalistic resume style Gatsby portfolio.`,
