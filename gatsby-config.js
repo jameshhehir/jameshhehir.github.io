@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
 
-  pathPrefix: "/jameshhehir.github.io",
+  pathPrefix: "/",
 
   siteMetadata: {
     title: `Jimmy Hehir`,
