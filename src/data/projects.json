@@ -1,0 +1,20 @@
+[
+  {
+    "project": "Java Calculator",
+    "language": "Java",
+    "description": "This is a one file project that uses Java to make a very basic calculator.",
+    "link": "https://github.com/jameshhehir/java_calculator"
+  },
+  {
+    "project": "Python Revision",
+    "language": "Python",
+    "description": "This is a collection of topics in Python that are core to understanding the language.",
+    "link": "https://github.com/jameshhehir/python"
+  },
+  {
+    "project": "Javascript Clock",
+    "language": "Javascript",
+    "description": "This project shows a digital and analog clock using Javascript.",
+    "link": "https://github.com/jameshhehir/javascript_clock"
+  }
+]
