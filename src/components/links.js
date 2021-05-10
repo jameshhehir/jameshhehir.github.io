@@ -33,7 +33,7 @@ export default function Links() {
       </li>
       <li className="list-group-item">
         <a
-          href="https://linkedin.com/jimmy-hehir"
+          href="https://linkedin.com/in/jimmy-hehir"
           target="_blank"
           rel="noreferrer"
           alt="linkedin link"
@@ -43,7 +43,7 @@ export default function Links() {
       </li>
       <li className="list-group-item">
         <a
-          href="https://twitter.com/in/jimmy-hehir/"
+          href="https://twitter.com/jimihehir/"
           target="_blank"
           rel="noreferrer"
           alt="twitter link"

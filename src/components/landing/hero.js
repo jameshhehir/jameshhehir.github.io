@@ -61,7 +61,7 @@ export default function Hero() {
                   <p className="card-text">
                     full-time software dev,
                     <br />
-                    part-time procrastinator.
+                    part-time FPL manager.
                   </p>
                   <Links />
                 </div>
