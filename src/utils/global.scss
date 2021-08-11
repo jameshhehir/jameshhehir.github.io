@@ -21,9 +21,9 @@ body {
   -webkit-tap-highlight-color: transparent;
 
   // Link colors
-  --link-primary: #5a67d8;
-  --link-secondary: #3182ce;
-  --link-tertiary: #63b3ed;
+  --link-primary: #044727;
+  --link-secondary: #23965e;
+  --link-tertiary: #4ea87d;
   --text-on-link: #ffffff;
 
   ::selection {
@@ -97,12 +97,12 @@ body.light {
   --secondary: #f7fafc;
   --tertiary: #e2e8f0;
 
-  // Blue
+  // Green
   --complement: #ebf8ff;
   --extra: #ededed;
 
-  --base: #000000;
-  --contrast: #2d3748;
+  --base: #101820;
+  --contrast: #006B38;
 }
 
 body.dark {
@@ -111,11 +111,11 @@ body.dark {
   // Background colors
   --primary: #000000;
   --secondary: #111111;
-  --tertiary: #1b1c1e;
+  --tertiary: #1a1b1b;
 
-  // Blue family
-  --complement: #00132c;
-  --extra: #202229;
+  // Green family
+  --complement: #022413;
+  --extra: #1a2721;
 
   // Text
   --base: #ffffff;

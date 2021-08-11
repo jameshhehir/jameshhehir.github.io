@@ -20,11 +20,11 @@ export default function Hero() {
               </h1>
               <h1>Hi. I'm Jimmy</h1>
               <p>
-                I work as a software developer. I enjoy making things.
+                I work as a software engineer. I enjoy making things.
               </p>
               <Link
                 to="content"
-                className="main-button btn btn-primary shadow-sm"
+                className="main-button btn shadow-sm"
                 smooth={true}
               >
                 Get to know me
@@ -59,7 +59,7 @@ export default function Hero() {
                     <br />
                   </h4>
                   <p className="card-text">
-                    full-time software dev,
+                    aspiring software engineer,
                     <br />
                     part-time FPL manager.
                   </p>
