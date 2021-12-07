@@ -51,6 +51,31 @@ export default class Content extends Component {
                   <div className="card">
                     <div className="card-body">
                       <div className="card-title">
+                        <h3>Teagasc</h3>
+                        <h4>
+                          <FontAwesomeIcon
+                            icon={faBriefcase}
+                            className="mr-2"
+                          />{" "}
+                          Postgraduate Researcher
+                        </h4>
+                        <h4>
+                          <FontAwesomeIcon icon={faCalendar} className="mr-2" />{" "}
+                          Jun 2021 - October 2021
+                        </h4>
+                      </div>
+
+                      <div className="card-text">
+                        ◆ I completed a minor thesis in genomic data analysis.
+                        <br />◆ Researched and analysed the genomes of Streptococcus infantarius susbp. infantarius.
+                        <br />◆ Used R, Pearl, Python and bioinformatics tools to complete a thorough analysis of sample genomes and public genomes. 
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="card">
+                    <div className="card-body">
+                      <div className="card-title">
                         <h3>WAZP</h3>
                         <h4>
                           <FontAwesomeIcon
@@ -66,12 +91,13 @@ export default class Content extends Component {
                       </div>
 
                       <div className="card-text">
-                        ◆ I worked with a 3D Printing Supply Chain. I was responsible for developing front end and backend technologies.
+                        ◆ I worked with a 3D Printing Supply Chain company. I was responsible for developing front end and backend technologies.
                         <br />◆ I also worked with graphic designers to implement web designs.
                         <br />◆ I ensured cross-platform optimization for mobile phones and overall responsiveness of applications.
                       </div>
                     </div>
                   </div>
+
                 </div>
                 {/* - Job subsection */}
 
@@ -152,13 +178,13 @@ export default class Content extends Component {
                             icon={faUserGraduate}
                             className="mr-2"
                           />{" "}
-                          2020-present
+                          2020-2021
                         </h4>
                       </div>
 
                       <div className="card-text">
-                        I am currently studying a Masters in Bioinformatics and Computational Biology at UCC. 
-                        My proposed thesis is the study of Streptococcus infantarius and its impact on gut bacteria. This project will be carried out with the 
+                        I have completed a Masters in Bioinformatics and Computational Biology at UCC. 
+                        My thesis was the study of Streptococcus infantarius and its impact on gut bacteria. This project was carried out with the 
                         guidance of the Teagasc Food Research Centre, Moorepark.
                       </div>
                     </div>

@@ -20,14 +20,14 @@ const ContactPage = () => (
             </p>
             <Links />
             <p>
-              I am currently available for a full time role. My scope of work
+              My scope of work
               includes but not limited to:
             </p>
             <ul>
               <li>Website Development</li>
               <li>Data Analysis</li>
               <li>OOP in Java</li>
-              <li>Python, C & Javascript</li>
+              <li>Python, R & Javascript</li>
               <li>Bioinformatics & Computational Biology</li>
             </ul> 
 
